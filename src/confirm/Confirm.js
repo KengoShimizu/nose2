@@ -10,40 +10,42 @@ class Confirm extends React.Component {
         <Header function={() => {}}/>
         <div className="table-confirm">
           <div className="flex blue1">
-            <div className="flex-left"></div>
-            <div>三保の松原</div>
+            <div className="flex-left">
+              <img className="table-confirm-img" src={`${process.env.PUBLIC_URL}/miho.jpg`} alt="miho"/>
+            </div>
+            <div className="flex-right">三保の松原</div>
           </div>
           <div className="flex blue1">
             <div className="flex-left">10:37</div>
-            <div>ひかり500号東京行</div>
-            <div>下車</div>
+            <div className="flex-middle">ひかり500号東京行</div>
+            <div className="flex-left">下車</div>
             <div>1045円</div>
           </div>
           <div className="flex orange1">
             <div className="flex-left">10:42</div>
-            <div>静岡(1・2番ホーム)</div>
+            <div className="flex-middle">静岡(1・2番ホーム)</div>
           </div>
           <div className="flex orange2">
-            <div className="flex-left">↓</div>
-            <div>JR東海道本線　興津行</div>
-            <div>240円</div>
+            <div className="flex-left arrow">↓</div>
+            <div className="flex-middle">JR東海道本線　興津行</div>
+            <div className="flex-right">240円</div>
           </div>
           <div className="flex orange1">
             <div className="flex-left">10:53</div>
-            <div>清水</div>
+            <div className="flex-right">清水</div>
           </div>
           <div className="flex blue2">
             <div className="flex-left">10:57</div>
-            <div>清水駅前</div>
+            <div className="flex-right">清水駅前</div>
           </div>
           <div className="flex blue3">
-            <div className="flex-left">↓</div>
-            <div className="small">しずてつジャストライン 三保山の手<br/>世界遺産三保松原 神の道入口行</div>
-            <div>370円</div>
+            <div className="flex-left arrow">↓</div>
+            <div className="small flex-middle">しずてつジャストライン 三保山の手<br/>世界遺産三保松原 神の道入口行</div>
+            <div className="flex-right">370円</div>
           </div>
           <div className="flex blue2">
             <div className="flex-left">11:24</div>
-            <div>世界遺産三保松原 神の道入口</div>
+            <div className="flex-middle">世界遺産三保松原 神の道入口</div>
           </div>
           <div className="flex saikabu">
             <div className="pink1 tyuuou">所要時間</div>

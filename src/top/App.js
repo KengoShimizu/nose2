@@ -4,6 +4,7 @@ import Top from './Top';
 import Confirm from '../confirm/Confirm';
 import Payment from '../payment/Payment';
 import Footer from '../common/Footer';
+import Finish from '../finish/Finish';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <Route exact path='/' component={Top}/>
             <Route path='/Confirm' component={Confirm}/>
             <Route path='/Payment' component={Payment}/>
+            <Route path='/Finish' component={Finish}/>
             <Footer />
           </div>
         </Router>

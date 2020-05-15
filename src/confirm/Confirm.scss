@@ -36,6 +36,21 @@
 .flex-left{
   flex: 1;
 }
+.flex-middle{
+  flex: 4;
+}
+.flex-right{
+  flex: 1;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gesya{
+  line-height: 10px;
+}
 
 .saikabu div{
   flex: 1;
@@ -43,4 +58,8 @@
 .confirm{
   margin: 10px auto;
   width: 95%;
+}
+.table-confirm-img{
+  width: 50px;
+  height: 21px;
 }
