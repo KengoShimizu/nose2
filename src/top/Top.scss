@@ -1,0 +1,244 @@
+.purposelabel{
+  background-color: rgba(124,169,252,0.8);
+}
+.trainlabel{
+  background-color: rgba(252,162,124,0.8);
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  .orange{
+    background-color: orange;
+  }
+  .nav-left-wrap,
+  .nav-rigth-wrap{
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+  }
+  .nav-rigth-wrap{
+    img{
+      width: 100px;
+    }
+    .newbuy{
+      height: 74%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.horizontal-scroll-bar-wrap{
+  overflow-x: auto;
+  width: 100%;
+  height: 80px;
+  .horizontal-scroll-bar{
+    display: flex;
+    width: 138%;
+    margin: 10px 0 10px;
+    .item{
+      width: 100px;
+      height: 60px;
+      text-align: center;
+      .purposeitem-inner{
+        background-color: rgba(124,169,252,0.5);
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .trainitem-inner{
+        background-color: rgba(252,162,124,0.5);
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .scroll-left{
+    position: absolute;
+    left: 0;
+  }
+  .scroll-right{
+    position: absolute;
+    right: 0;
+  }
+  .purpose{
+    top: 20%;
+  }
+  .train{
+    top: 30%;
+  }
+}
+
+table{
+  width: 95%;
+  margin: 0 auto 20px;
+  .title{
+    background-color: rgba(48,181,4,0.8);
+  }
+  .elements{
+    font-size: 13px;
+    background-color: rgba(48,181,4,0.3);
+  }
+}
+
+.season-flex-wrap{
+  width: 100%;
+  .season-flex{
+    display: flex;
+    .item{
+      flex: 1;
+      text-align: center;
+    }
+    .spring,
+    .summer,
+    .fall,
+    .winter{
+      width: 80px;
+    }
+  }
+}
+
+.init{
+  display: none;
+}
+//カテゴリ
+.purpose-true{
+  .purpose{
+    display: block;
+  }
+  .train{
+    display: none;
+  }
+}
+//チケット
+.siseki-true{
+  .siseki{
+    display: block;
+  }
+  :not(.siseki) {
+    display: none;
+  }
+}
+.unagi-true{
+  .unagi{
+    display: block;
+  }
+  :not(.unagi) {
+    display: none;
+  }
+}
+
+
+.slideup-category-wrap{
+  width: 100%;
+  .slideup-category-title{
+    background-color: rgba(124,169,252,0.8);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .card{
+    background-color: rgba(124,169,252,0.5);
+    width: 95%;
+    height: 60px;
+    margin: 10px auto 10px;
+    display: flex;
+    .img{
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .rawimg{
+        width: 80px;
+        height: 50px;
+      }
+    }
+    .text{
+      flex: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.slideup-ticket-wrap{
+  width: 100%;
+  .slideup-ticket-title{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    .slideup-ticket-title-left{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex: 5;
+      height: 100%;
+      background-color: rgba(124,169,252,0.8);
+    }
+    .slideup-ticket-title-right{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      height: 100%;
+      background-color: rgba(124,169,252,0.8);
+    }
+  }
+  .slideup-ticket{
+    width: 90%;
+    margin: 0 auto;
+    .radio_card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card{
+        background-color: rgba(124,169,252,0.5);
+        width: 95%;
+        height: 60px;
+        margin: 10px auto 10px;
+        display: flex;
+        .img{
+          margin-left: 5px;
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .text{
+          flex: 3;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .station{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    .continue,
+    .finish{
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 5px auto 20px;
+      background-color: rgba(124,169,252,1);
+      border-radius: 10px;
+      padding: 5px 15px;
+    }
+  }
+}

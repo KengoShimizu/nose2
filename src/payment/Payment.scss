@@ -1,0 +1,69 @@
+.payment-wrap{
+  border: 1px solid blue;
+  width: 90%;
+  height: 400px;
+  margin: 40px auto;
+  .payment-cre{
+    border-bottom: 1px solid blue;
+  }
+  .payment-cre,
+  .payment-conv{
+    display: flex;
+    padding: 10px;
+  }
+  .payment-conv-list{
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+  }
+  .payment-huri{
+    display: flex;
+    padding: 10px;
+  }
+  .payment-cre-detail{
+    text-align: center;
+    border-bottom: 1px solid blue;
+    input{
+      border-radius: 5px;
+      margin: 10px 10px;
+      border: 1px solid blue;
+      padding: 8px 5px;
+      width: 90%
+    }
+  }
+}
+
+.visa,
+.master-card,
+.jcb{
+  width: 40px;
+  margin-left: 5px;
+}
+
+.seven,
+.roson,
+.fami{
+  width: 40px;
+  margin-left: 5px;
+}
+
+.radio{
+  height: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.anchor{
+  text-decoration: none;
+  .finish{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5px auto 20px;
+    background-color: rgba(124,169,252,1);
+    border-radius: 10px;
+    padding: 5px 15px;
+  }
+}
